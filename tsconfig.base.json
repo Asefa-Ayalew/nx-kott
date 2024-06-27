@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@kott/auth": ["libs/auth/src/index.ts"],
+      "@kott/auth/server": ["libs/auth/src/server.ts"],
+      "@kott/core": ["libs/core/src/index.ts"],
+      "@kott/core/server": ["libs/core/src/server.ts"],
+      "@kott/shell": ["libs/shell/src/index.ts"],
+      "@kott/shell/server": ["libs/shell/src/server.ts"],
+      "@kott/ui": ["libs/ui/src/index.ts"],
+      "@kott/ui/server": ["libs/ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

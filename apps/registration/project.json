@@ -1,18 +1,18 @@
 {
-  "name": "orders",
+  "name": "registration",
   "targets": {
     "build": {
       "executor": "@nrwl/next:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/orders",
-        "root": "apps/orders"
+        "outputPath": "dist/apps/registration",
+        "root": "apps/registration"
       }
     },
     "serve": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "orders:build"
+        "buildTarget": "registration:build"
       }
     }
   }
